@@ -19,4 +19,5 @@ int main() {
    return 0;
  }
  // when i get non lazy ill do this
+ return 0;
 }
