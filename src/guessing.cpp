@@ -1,4 +1,4 @@
-#include <string>
+#include <random>
 #include <iostream>
 
 // update: im gud :D
@@ -20,7 +20,7 @@ int main() {
    return 0;
  }
  std::cout << "Type a number 1-10: ";
- std::cin >> player.guess
+ std::cin >> player.guess;
  // when i get non lazy ill do this
  return 0;
 }
