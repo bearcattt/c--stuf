@@ -45,7 +45,6 @@ int main() {
     std::cout << exp << std::endl;
     return 1; // 1 means error
   }
-  // TODO: add checking for letters or blank <- handled by exception (you can try it out yourself)
   std::cout << "Type a number 1-10: ";
   std::cin >> inputGuess;
   try
