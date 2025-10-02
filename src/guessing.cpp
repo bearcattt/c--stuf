@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <stdexcept>
 
 // update: im gud :D
 class plrInfo
@@ -24,7 +25,7 @@ public:
   {
     if (inputGuess > 10 || inputGuess < 1)
     {
-      throw "Exception: Invalid input.";
+      throw std::invalid_argument("Exception: Invalid input.");
     }
     else {guess = inputGuess;}
   }
